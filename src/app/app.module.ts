@@ -3,10 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ContadorComponent } from './contador/contador.component';
+import { HijoComponent } from './hijo/hijo.component';
+import { NietoComponent } from './contador/hijo/nieto/nieto.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ContadorComponent,
+    HijoComponent,
+    NietoComponent
   ],
   imports: [
     BrowserModule,
